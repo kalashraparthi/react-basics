@@ -33,7 +33,9 @@ class App extends Component {
         <Person
           name={this.state.persons[1].name}
           age={this.state.persons[1].age}
-        />
+        >
+          My Hobbies: Poker
+        </Person>
         <Person
           name={this.state.persons[2].name}
           age={this.state.persons[2].age}

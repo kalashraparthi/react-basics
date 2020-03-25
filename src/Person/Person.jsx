@@ -2,9 +2,12 @@ import React from "react";
 
 const person = props => {
   return (
-    <p>
-      Hello I'am {props.name}. My age is {props.age}
-    </p>
+    <div>
+      <p>
+        Hello I'am {props.name}. My age is {props.age}
+      </p>
+      <p>{props.children}</p>
+    </div>
   );
 };
 
